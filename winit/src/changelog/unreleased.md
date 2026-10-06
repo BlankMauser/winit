@@ -39,3 +39,7 @@ The migration guide could reference other migration examples in the current
 changelog entry.
 
 ## Unreleased
+
+### Fixed
+
+- On Windows, fix pen and touch pointer events using the frame's current pressure, tilt, rotation and force for every historical sample instead of the per-sample values.
